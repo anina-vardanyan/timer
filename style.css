@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.screen{
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+     align-content: center;
+     margin: 0 auto;
+     height: 100%;
+     text-align: center;
+     padding: 20px;
+     font-size: 40px;
+     
+
+}
+
+.timerDisplay{
+    flex-basis: 100%;
+}
+
+#button{
+           margin: 30px;
+           display: flex;
+           margin: 50px auto;
+           width: 100px;
+           height: 40px;
+           font-size: 30px;
+           padding-left: 10px;
+           
+}
+.rezult{
+    display: flex;
+    flex-direction: column;
+}
